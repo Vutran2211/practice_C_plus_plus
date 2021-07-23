@@ -17,5 +17,6 @@ int main(){
 			if (a[j]-a[i]==k) count++;
 			if (a[j]-a[i]>k) break;
 		}
+		cout<<count;
 		return 0;
 	}

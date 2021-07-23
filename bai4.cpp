@@ -41,7 +41,7 @@ int Optimize()
 			if (a[j]-a[i]==k) count++;
 			if (a[j]-a[i]>k) break;
 		}
-	return ans;
+	return count;
 }
  
 int main()
